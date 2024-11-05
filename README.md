@@ -28,3 +28,23 @@ To view on your local machine:
 git clone https://github.com/nandani537/Nandani-Portfolio.git
 cd Nandani-Portfolio
 open index.html
+
+Nandani-Portfolio/
+├── Certificate_Nandani/
+│   ├── slide1.jpg
+│   ├── slide2.jpg
+│   └── ... (more certificates)
+├── Company_Logo/
+│   ├── vyobotics.png
+│   ├── oslomet.png
+│   └── ... (more logos)
+├── CSS/
+│   ├── style.css
+│   └── responsive-style.css
+├── Skills/
+│   ├── azure.png
+│   └── ... (more icons)
+├── index.html
+├── project-details1.html
+└── ... (other project details pages)
+
