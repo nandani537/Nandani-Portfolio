@@ -33,9 +33,16 @@ To view this portfolio website on your local machine, follow these steps:
    ```bash
    cd Nandani-Portfolio
 
+3. ### Open `index.html` in Your Preferred Web Browser
 
+- **In Visual Studio Code**: 
+  - Right-click on `index.html` in the Explorer panel.
+  - Select **"Open with Live Server"** (requires the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed in Visual Studio Code).
+  
+- **Alternatively**: 
+  - Open the file directly in your browser by navigating to the project directory in your file explorer.
+  - Double-click on `index.html` to open it.
 
-3. **Open (`index.html`) in your preferred web browser**:
 
 ## 📋 Sections in the Portfolio
 
