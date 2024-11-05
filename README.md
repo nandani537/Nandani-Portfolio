@@ -32,7 +32,7 @@ To view this portfolio website on your local machine, follow these steps:
 
    cd Nandani-Portfolio
 
-3. **Open index.html in your preferred web browser**:
+3. **Open (`index.html`) in your preferred web browser**:
 
 ## 📋 Sections in the Portfolio
 
@@ -62,7 +62,7 @@ To view this portfolio website on your local machine, follow these steps:
 ## ✨ Additional Notes
 
 - **Responsive Design**: The CSS files include styles that make the website responsive for various screen sizes.
-- **Subpage Links**: Each project detail page is accessible through links on the main projects page (`projects-page.html`).
+- **Subpage Links**: Each project detail page is accessible through links on the main projects page (`projects.html`).
 
 ---
 
