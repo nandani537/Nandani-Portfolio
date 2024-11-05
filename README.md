@@ -1,63 +1,23 @@
-# Nandani Portfolio
+# 🌐 Nandani's Portfolio
 
-This repository hosts my personal portfolio website, showcasing my projects, experience, skills, and contact information.
+This is a personal portfolio website showcasing my skills, projects, work experience, and contact information. The website is designed to be responsive and visually engaging, with sections for my biography, education, certifications, skills, and notable projects.
 
-## 📄 Project Structure
+## 📸 Live Preview
 
-The main files and folders in this project are:
+[View the Portfolio on GitHub Pages](https://nandani537.github.io/Nandani-Portfolio/)
 
-- **index.html**: The main homepage.
-- **project-details1.html** to **project-details6.html**: Detailed pages for individual projects.
-- **projects-page.html**: A page listing all important projects.
-- **CSS/**: Folder containing styles for the website.
-- **Skills/**: Folder containing skill icons.
-- **Certificate_Nandani/**: Images of certifications.
-- **Company_Logo/**: Logos of companies where I have worked.
-
-## 🌐 Hosting on GitHub Pages
-
-This portfolio is hosted on GitHub Pages. Visit it here:  
-[https://nandani537.github.io/Nandani-Portfolio](https://nandani537.github.io/Nandani-Portfolio)
-
-> **Note**: Ensure `index.html` is in the root directory for GitHub Pages to work.
-
-## 🚀 How to View Locally
-
-To view on your local machine:
-```bash
-git clone https://github.com/nandani537/Nandani-Portfolio.git
-cd Nandani-Portfolio
-open index.html
+---
 
 ## 🛠️ Technologies Used
 
-- **HTML5** & **CSS3**: For structure and styling.
-- **Font Awesome**: Used for adding icons throughout the website.
-- **GitHub Pages**: For hosting the portfolio as a static site.
+- **HTML5** & **CSS3**: For structuring and styling the webpage.
+- **Font Awesome**: For adding icons in various sections.
+- **GitHub Pages**: Hosting the portfolio as a static website.
 
-## 📁 Folder Structure
-
-Here’s an overview of the main folder structure:
+---
 
 
 
 
-Nandani-Portfolio/
-├── Certificate_Nandani/
-│   ├── slide1.jpg
-│   ├── slide2.jpg
-│   └── ... (more certificates)
-├── Company_Logo/
-│   ├── vyobotics.png
-│   ├── oslomet.png
-│   └── ... (more logos)
-├── CSS/
-│   ├── style.css
-│   └── responsive-style.css
-├── Skills/
-│   ├── azure.png
-│   └── ... (more icons)
-├── index.html
-├── project-details1.html
-└── ... (other project details pages)
+
 
