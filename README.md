@@ -29,6 +29,19 @@ git clone https://github.com/nandani537/Nandani-Portfolio.git
 cd Nandani-Portfolio
 open index.html
 
+## 🛠️ Technologies Used
+
+- **HTML5** & **CSS3**: For structure and styling.
+- **Font Awesome**: Used for adding icons throughout the website.
+- **GitHub Pages**: For hosting the portfolio as a static site.
+
+## 📁 Folder Structure
+
+Here’s an overview of the main folder structure:
+
+
+
+
 Nandani-Portfolio/
 ├── Certificate_Nandani/
 │   ├── slide1.jpg
