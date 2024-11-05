@@ -229,7 +229,7 @@ body {
     overflow: hidden;
     padding: 50px 0;
     background: white;
-    background-image: url('im.png');
+    background-image: url('../education.png');
     width: 100%;
     white-space: nowrap;
     position: relative;
@@ -433,7 +433,7 @@ section h1 {
     padding: 40px 0;
     background: white;
     justify-content: center;
-    background-image:url(education.png);
+    background-image:url('../im.png');
     width: 100%;
     white-space: nowrap;
     position: relative;
