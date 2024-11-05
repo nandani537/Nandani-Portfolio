@@ -30,7 +30,10 @@ To view this portfolio website on your local machine, follow these steps:
 
 2. **Navigate to the project folder**:
 
+   ```bash
    cd Nandani-Portfolio
+
+
 
 3. **Open (`index.html`) in your preferred web browser**:
 
