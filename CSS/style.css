@@ -486,17 +486,22 @@ nav {
     align-items: center;
     height: 70px;
     background-color: rgb(1, 1, 74);
+    flex-wrap: wrap;
+    padding: 0 5px;
 
 }
 
 nav ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px; /* Space out the links */
+    
 }
 
 nav ul li {
     list-style: none;
-    margin: 0 23px;
+    margin: 0 15px;
 
 }
 
@@ -528,6 +533,7 @@ main hr {
     justify-content: space-around;
     align-items: center;
     margin: 20px 0;
+    flex-wrap: wrap;
 
 }
 
@@ -581,6 +587,7 @@ main hr {
     max-width: 80vw;
     margin: auto;
 }
+
 
 
 /*----------------------------CSS for aboutsmyself section------------------------------------------------------------------------------------*/
@@ -1064,6 +1071,13 @@ section.col {
     color: white;
     font-size: 22px;
 }
+
+/* Hover Effect */
+.gotopbtn:hover {
+    background-color: #2b6cb0; /* Lighter color on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
 
 
 /* scroll top ends */

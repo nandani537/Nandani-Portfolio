@@ -74,6 +74,46 @@ html {
     background-color: #2b6cb0;
 }
 
+/* Medium screens (Tablets and small laptops) */
+@media (max-width: 768px) {
+    .project-details {
+        padding: 40px;
+    }
+
+    .project-details h1 {
+        font-size: 1.6rem;
+    }
+
+    .project-details p,
+    .project-details li {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
+/* Small screens (Mobile devices) */
+@media (max-width: 480px) {
+    .project-details {
+        padding: 20px;
+    }
+
+    .project-details h1 {
+        font-size: 1.4rem;
+    }
+
+    .project-details p,
+    .project-details li {
+        font-size: 0.85rem;
+    }
+
+    .btn {
+        padding: 6px 12px;
+    }
+}
+
 <!------------------------------------------------------------Projects html Section---------------------------------------------------------------------------------->
 
 /* Main container */
@@ -151,4 +191,50 @@ html {
     background-color: #2b6cb0;
     align-items: center;
     
+}
+
+/* Medium screens (Tablets and small laptops) */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 20px;
+    }
+
+    .main-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .project-link {
+        font-size: 1.1rem;
+    }
+
+    .project-card p {
+        font-size: 1.2rem;
+    }
+
+    .back-button {
+        padding: 8px 16px;
+    }
+}
+
+/* Small screens (Mobile devices) */
+@media (max-width: 480px) {
+    .main-container {
+        padding: 15px;
+    }
+
+    .main-container h1 {
+        font-size: 1.6rem;
+    }
+
+    .project-link {
+        font-size: 1rem;
+    }
+
+    .project-card p {
+        font-size: 1rem;
+    }
+
+    .back-button {
+        padding: 6px 12px;
+    }
 }
