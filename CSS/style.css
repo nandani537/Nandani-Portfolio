@@ -109,7 +109,7 @@ body {
     background: #bbb;
     display: inline-block;
     margin: 0 3px;
-   
+
 }
 
 .active,
@@ -433,7 +433,7 @@ section h1 {
     padding: 40px 0;
     background: white;
     justify-content: center;
-    background-image:url('../im.png');
+    background-image: url('../im.png');
     width: 100%;
     white-space: nowrap;
     position: relative;
@@ -479,6 +479,15 @@ section h1 {
     ;
 }
 
+.full-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dffce5;
+    /* Light blue background */
+    padding: 20px;
+}
 
 nav {
     display: flex;
@@ -495,8 +504,9 @@ nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5px; /* Space out the links */
-    
+    gap: 5px;
+    /* Space out the links */
+
 }
 
 nav ul li {
@@ -523,7 +533,10 @@ main hr {
     height: 1.2px;
     margin: 40px 84px;
 }
-
+#home {
+    padding-top: 120px; /* Adjust this value to create more space above the firstsection */
+    
+}
 .left {
     font-size: 1.5rem;
 }
@@ -532,9 +545,14 @@ main hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 0;
+    width: 100%;
+    padding: 50px 30px;
+    margin:0 auto;
+    gap: 20px;
     flex-wrap: wrap;
-
+    text-align: center;
+   
+    
 }
 
 .firstsection>div {
@@ -542,8 +560,16 @@ main hr {
 }
 
 .leftsection {
-    font-size: 2rem;
+    font-size: 3rem;
+    width: 55%;
 
+}
+
+
+.leftsection div,
+#element {
+    font-size: 1.5rem; /* Smaller font size */
+    color: #555;
 }
 
 .leftsection .buttons {
@@ -566,13 +592,29 @@ main hr {
 
 
 .rightsection img {
-    width: 300px; /* Adjust width to fit your design */
-    height: 250px; /* Maintain square aspect ratio for perfect circle */
-    border-radius: 50%;
-    object-fit: cover; /* Ensures the image fits within the circle */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow */
-    border: 5px solid #fff; /* Optional: White border around the image */
-    align-items: right;
+    width: 70%;
+    /* Adjust width to fit your design */
+    height: auto;
+    /* Maintain square aspect ratio for perfect circle */
+    border-radius: 20px;
+    object-fit: cover;
+    /* Ensures the image fits within the circle */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Optional: Adds shadow */
+    border: 5px solid #fff;
+    /* Optional: White border around the image */
+    align-items: flex-start;
+    margin-top: -50px;
+    margin-bottom: 50px; 
+}
+
+.rightsection {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: flex-end; /* Aligns the image to the top */
+    position: relative; /* Allows positioning adjustments */
+    height: 100%;
+    flex-direction: column;
 }
 
 .purple {
@@ -714,7 +756,7 @@ section.col {
 }
 
 .box p {
-    font-size:1.3rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     color: black;
 }
@@ -1074,8 +1116,10 @@ section.col {
 
 /* Hover Effect */
 .gotopbtn:hover {
-    background-color: #2b6cb0; /* Lighter color on hover */
-    transform: translateY(-3px); /* Slight lift on hover */
+    background-color: #2b6cb0;
+    /* Lighter color on hover */
+    transform: translateY(-3px);
+    /* Slight lift on hover */
 }
 
 
@@ -1100,7 +1144,7 @@ section.col {
 .footer-text {
     color: #555;
     font-size: 20px;
- 
+
 }
 
 .footer-text a {
